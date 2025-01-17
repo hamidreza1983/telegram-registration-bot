@@ -3,7 +3,7 @@ import os
 from telebot.types import *
 
 API_TOKEN = os.environ.get('API_TOKEN')
-bot = telebot.TeleBot(API_TOKEN)#
+bot = telebot.TeleBot(API_TOKEN)
 
 user = {}
 course = {
